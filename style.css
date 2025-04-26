@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-y: hidden;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+}
+
+.cover {
+    width: 99.5%;
+    height: 35vh;
+    position: relative;
+    border: 4px solid royalblue;
+    background-color: rgb(173, 163, 238);
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid rgb(246, 246, 248);
+    position: absolute;
+    top: 50%; 
+    right: 30px;
+    transform: translateY(-50%);
+    background-image: url('profpic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: royalblue;
+    height: 10vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    font-size: 25px;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 16px;
+    position: relative;
+    top: -5px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(148, 148, 236);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.panel {
+    border: 1px solid royalblue;
+    height: 19vh;
+    background-color: rgb(96, 96, 204);
+}
+
+#name {
+    position: relative;
+    margin: 15px;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#instalogo {
+    position: relative;
+    margin: 15px;
+    left: 10px;
+}
+#seca {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    top: -20px;
+    font-weight: 500;
+}
+.cover #cover-quote {
+    position: relative;
+    top: 37%;
+    font-size: 30px;
+    left: -20%;
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2.6px;
+}
+#text {
+    font-size: 20px;
+    position: relative;
+    margin-left: 18px;
+    top: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    max-width: 1500px;
+    font-weight: 450;
+}
+
+#slogan {
+    font-size: 18px;
+    position: relative;
+    top: -35px;
+    left: 26px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.btn{
+    position: relative;
+    left: 18px;
+    height: 8vh;
+    padding: 0.5%;
+    background-color: rgb(55, 98, 230);
+    color: white;
+    font-size: 25px;
+    border: 2px solid rgb(23, 78, 245);
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    bottom: -10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(106, 106, 241);
+}
+.image-section img{
+    border: 2px solid white;
+    position: relative;
+    top: 25px;
+    padding: 3%;
+    background-color: white;
+    width: 6%;
+    border-radius: 16px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    right: 500px;
+}
+.image-section #cap1{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    padding: 0.5%;
+    width: 12%;
+    font-size: 25px;
+    border-radius: 16px;
+    font-family: "Montserrat";
+    border-color: white;
+}
